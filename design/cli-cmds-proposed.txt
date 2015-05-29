@@ -1,0 +1,147 @@
+Version 6.10.0-c7a5cfc-2015-03-12T19:05:05+00:00
+                                        
+Proposed Command Syntax                      Current Command Syntax
+=======================                      ======================
+api                                          api  
+app delete                                   delete
+app list                                     apps
+app rename                                   rename
+app restage                                  restage
+app restart                                  restart
+app scale                                    scale
+app show                                     app
+app start                                    start
+app stop                                     stop
+app-instance restart                         restart-app-instance
+app-manifest create                          create-app-manifest                    
+auth                                         auth
+buildpack create                             create-buildpack             
+buildpack delete                             delete-buildpack          
+buildpack list                               buildpacks                    
+buildpack rename                             rename-buildpack           
+buildpack update                             update-buildpack            
+config                                       config                                 
+curl                                         curl                                    
+domain create                                create-domain         
+domain delete                                delete-domain        
+domain list                                  domains                
+env                                          env
+env set                                      set-env
+env unset                                    unset-env     
+events                                       events             
+feature-flag disable                         disable-feature-flag                     
+feature-flag enable                          enable-feature-flag                       
+feature-flag list                            feature-flags                               
+feature-flag show                            feature-flag                               
+files                                        files
+login                                        login
+logout                                       logout
+logs                                         logs             
+marketplace                                  marketplace
+oauth-token                                  oauth-token                           
+org create                                   create-org
+org delete                                   delete-org                    
+org list                                     orgs
+org rename                                   rename-org                   
+org show                                     org                              
+org-role set                                 set-org-role          
+org-role unset                               unset-org-role       
+org-user list                                org-users              
+orphaned-routes delete                       delete-orphaned-routes         
+passwd                                       passwd
+plugin install                               install-plugin                  
+plugin list                                  plugins                          
+plugin uninstall                             uninstall-plugin               
+plugin-repo add                              add-plugin-repo                      
+plugin-repo list                             list-plugin-repos                  
+plugin-repo remove                           remove-plugin-repo                  
+private-domain share                         share-private-domain                   
+private-domain unshare                       unshare-private-domain                
+push                                         push
+quota create                                 create-quota                              
+quota delete                                 delete-quota                             
+quota list                                   quotas           
+quota set                                    set-quota                                  
+quota show                                   quota           
+quota update                                 update-quota                            
+repo-plugin list                             repo-plugins                      
+route check                                  check-route      
+route create                                 create-route      
+route delete                                 delete-route  
+route list                                   routes
+route map                                    map-route       
+route unmap                                  unmap-route    
+running-environment-variable-group list      running-environment-variable-group
+running-environment-variable-group set       set-running-environment-variable-group
+running-security-group bind                  bind-running-security-group   
+running-security-group list                  running-security-groups      
+running-security-group unbind                unbind-running-security-group  
+security-group bind                          bind-security-group                          
+security-group create                        create-security-group                          
+security-group delete                        delete-security-group                          
+security-group list                          security-groups                        
+security-group show                          security-group                          
+security-group unbind                        unbind-security-group                          
+security-group update                        update-security-group                          
+service                                      bind-service
+service                                      create-service
+service                                      delete-service
+service                                      rename-service                  
+service                                      unbind-service
+service                                      update-service                    
+service list                                 services
+service show                                 service                             
+service-access disable                       disable-service-access                   
+service-access enable                        enable-service-access                     
+service-access list                          service-access                             
+service-auth-token create                    create-service-auth-token    
+service-auth-token delete                    delete-service-auth-token  
+service-auth-token list                      service-auth-tokens           
+service-auth-token update                    update-service-auth-token   
+service-broker create                        create-service-broker    
+service-broker delete                        delete-service-broker  
+service-broker list                          service-brokers           
+service-broker rename                        rename-service-broker 
+service-broker update                        update-service-broker   
+service-instances migrate                    migrate-service-instances                    
+service-offering purge                       purge-service-offering                      
+shared-domain create                         create-shared-domain
+shared-domain delete                         delete-shared-domain
+source copy                                  copy-source
+space                                        create-space              
+space                                        delete-space             
+space                                        rename-space            
+space list                                   spaces                      
+space show                                   space                      
+space-quota create                           create-space-quota                 
+space-quota delete                           delete-space-quota               
+space-quota list                             space-quotas                         
+space-quota set                              set-space-quota                 
+space-quota show                             space-quota                         
+space-quota unset                            unset-space-quota              
+space-quota update                           update-space-quota                
+space-role set                               set-space-role     
+space-role unset                             unset-space-role  
+space-user list                              space-users         
+stack list                                   stacks       
+stack show                                   stack       
+staging-environment-variable-group list      staging-environment-variable-group
+staging-environment-variable-group set       set-staging-environment-variable-group
+staging-security-group bind                  bind-staging-security-group      
+staging-security-group list                  staging-security-groups         
+staging-security-group unbind                unbind-staging-security-group  
+target                                       target
+user create                                  create-user              
+user delete                                  delete-user             
+user-provided-service create                 create-user-provided-service
+user-provided-service update                 update-user-provided-service
+CF_COLOR=false                
+CF_HOME=path/to/dir/         
+CF_PLUGIN_HOME=path/to/dir/ 
+CF_STAGING_TIMEOUT=15      
+CF_STARTUP_TIMEOUT=5      
+CF_TRACE=true            
+CF_TRACE=path/to/trace.log   
+HTTP_PROXY=proxy.example.com:8080
+--version
+--help

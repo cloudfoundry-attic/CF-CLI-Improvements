@@ -52,4 +52,5 @@ html, body {
 #cfTerm{
 	/*height: 300px;*/
   height: 100vh;
+  padding: 1em;
 }

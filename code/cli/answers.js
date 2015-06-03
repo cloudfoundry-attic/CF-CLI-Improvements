@@ -161,7 +161,7 @@ var ansNine = "Using manifest file /Users/lbrooke/Documents/postehaste/manifest.
 
     var ansTen = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
         "Type 'cf help [command]' for more details. Type 'cf help --admin' for a list of admin-only commands.<br><br>" +
-        "api                    / Set or view target api url<br>" +
+        "api                     / Set or view target api url<br>" +
         "app                    / Display health and status for app<br>" +
         "apps                   / List all apps in the target space<br>" +
         "auth                   / Authenticate user non-interactively<br>" +

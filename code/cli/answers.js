@@ -291,4 +291,25 @@ var ansNine = "Using manifest file /Users/lbrooke/Documents/postehaste/manifest.
             "   set-running-environment-variable-group, srevg Pass parameters as JSON to create a running environment variable group";
 
         // cf help orgs
-        var ansFifteen;
+        var ansFifteen = "NAME:<br>" +
+            "   orgs - List all orgs<br><br>" +
+            "ALIAS:<br>" +
+            "   o<br><br>" +
+            "USAGE:<br>" +
+            "   cf orgs<br><br>" +
+            "RELATED COMMANDS:<br>" +
+            "   target, t                                     Set or view the targeted org or space<br>" +
+            "   org                                           Show org info<br>" +
+            "   create-org, co                                Create an org<br>" +
+            "   delete-org                                    Delete an org<br>" +
+            "   rename-org                                    Rename an org<br>" +
+            "   spaces                                        List all spaces in an org<br>" +
+            "   domains                                       List domains in the target org<br>" +
+            "   create-domain                                 Create a domain in an org for later use<br>" +
+            "   create-shared-domain                          Create a domain that can be used by all orgs (admin-only)<br>" +
+            "   org-users                                     Show org users by role<br>" +
+            "   set-org-role                                  Assign an org role to a user<br>" +
+            "   unset-org-role                                Remove an org role from a user<br>" +
+            "   set-quota                                     Assign a quota to an org<br>" +
+            "   enable-service-access                         Enable access to a service or service plan for one or all orgs<br>" +
+            "   disable-service-access                        Disable access to a service or service plan for one or all orgs";

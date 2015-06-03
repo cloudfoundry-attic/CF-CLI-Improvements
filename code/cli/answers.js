@@ -159,6 +159,7 @@ var ansNine = "Using manifest file /Users/lbrooke/Documents/postehaste/manifest.
     "#0   running   2014-08-07 09:55:17 PM   0.0%   30.4M of 512M   117.1M of 1G  <br />" +
     "urls: posthaste.mybluemix.net<br />";
 
+    //cf help
     var ansTen = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
         "Type 'cf help [command]' for more details. Type 'cf help --admin' for a list of admin-only commands.<br><br>" +
         "api                     / Set or view target api url<br>" +
@@ -204,3 +205,60 @@ var ansNine = "Using manifest file /Users/lbrooke/Documents/postehaste/manifest.
         "CF_TRACE=true                     / Print API request diagnostics to stdout<br>" +
         "CF_TRACE=path/to/trace.log        / Append API request diagnostics to a log file<br>" +
         "HTTP_PROXY=proxy.example.com:8080 / Enable HTTP proxying for API requests";
+
+    // cf help --admin
+    var ansEleven = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
+        "Type 'cf help [command]'' for more details.<br><br>" +
+        "Admin-only commands:<br><br>" +
+        "orgs, o                / List all orgs<br>" +
+        "create-org, co         / Create an org<br>" +
+        "delete-org, co         / Delete an org<br>" +
+        "spaces<br>" +
+        "create-space<br>" +
+        "delete-space<br>" +
+        "domains<br>" +
+        "create-domain<br>" +
+        "delete-domain<br>" +
+        "create-shared-domain<br>" +
+        "delete-shared-domain<br>" +
+        "buildpacks<br>" +
+        "create-buildpack<br>" +
+        "etc<br><br>" +
+        "--version, -v          / Print the version<br>" +
+        "--help, -h             / Show help<br><br>" +
+        "CF_COLOR=false                    / Do not colorize output<br>" +
+        "CF_HOME=path/to/dir/              / Override path to default config directory<br>" +
+        "CF_PLUGIN_HOME=path/to/dir/       / Override path to default plugin config directory<br>" +
+        "CF_STAGING_TIMEOUT=15             / Max wait time for buildpack staging, in minutes<br>" +
+        "CF_STARTUP_TIMEOUT=5              / Max wait time for app instance startup, in minutes<br>" +
+        "CF_TRACE=true                     / Print API request diagnostics to stdout<br>" +
+        "CF_TRACE=path/to/trace.log        / Append API request diagnostics to a log file<br>" +
+        "HTTP_PROXY=proxy.example.com:8080 / Enable HTTP proxying for API requests<br>";
+
+        // cf help space
+        var ansTwelve = "NAME:<br>" +
+            "   space - Show space info<br><br>" +
+            "USAGE:<br>" +
+            "   cf space SPACE<br><br>" +
+            "RELATED COMMANDS:<br>" +
+            "   spaces                                        List all spaces in an org<br>" +
+            "   create-space                                  Create a space<br>" +
+            "   delete-space                                  Delete a space<br>" +
+            "   rename-space                                  Rename a space<br>" +
+            "   routes, r                                     List all routes in the current space<br>" +
+            "   create-route                                  Create a url route in a space for later use<br>" +
+            "   space-users                                   Show space users by role<br>" +
+            "   set-space-role                                Assign a space role to a user<br>" +
+            "   unset-space-role                              Remove a space role from a user<br>" +
+            "   space-quota                                   Show space quota info<br>" +
+            "   space-quotas                                  List available space resource quotas<br>" +
+            "   create-space-quota                            Define a new space resource quota<br>" +
+            "   update-space-quota                            update an existing space quota<br>" +
+            "   delete-space-quota                            Delete a space quota definition and unassign the space quota from all spaces<br>" +
+            "   set-space-quota                               Assign a space quota definition to a space<br>" +
+            "   unset-space-quota                             Unassign a quota from a space<br>" +
+            "   bind-security-group                           Bind a security group to a space<br>" +
+            "   unbind-security-group                         Unbind a security group from a space";
+
+        // cf help routes
+        var ansThirteen = "";

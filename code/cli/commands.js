@@ -30,6 +30,15 @@
                 case('cf help'):
                     term.echo(ansTen, {raw:true});
                     break;
+                case('cf help --admin'):
+                    term.echo(ansEleven, {raw:true});
+                    break;
+                case('cf help space'):
+                    term.echo(ansTwelve, {raw:true});
+                    break;
+                case('cf help routes'):
+                    term.echo(ansThirteen, {raw:true});
+                    break;
                 case('bluemix -help'):
                     term.echo(ansFour, {raw:true});
                     break;
@@ -48,8 +57,6 @@
                 default:
                     term.echo("unknown command " + command);
             }
-
-
 
             // if (command == 'cf api') {
             //     term.echo(ansOne,{ raw:true});

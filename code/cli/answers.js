@@ -29,14 +29,14 @@ var ansThree =
     "SOURCE<br />" +
     "This information is taken from the CloudFoundry Docs. http://docs.cloudfoundry.org/devguide/deploy-apps/troubleshoot-app-health.html#trace<br />" +
     "<br />" +
-    "TIP: use &#8216bm -help&#8217; to continue troubleshooting<br />" +
+    "TIP: use &#8216bluemix -help&#8217; to continue troubleshooting<br />" +
     "<br />";
 
 var ansFour = "BLUEMIX TROUBLESHOOTER<br /><br />" +
-    "1. Type &#8216bm [ERROR CODE] -description&#8217; for a description from documentation<br />" +
-    "2. Type &#8216bm [ERROR CODE] -solutions&#8217; for a list of possible solutions<br />" +
-    "3. Type &#8216bm [ERROR CODE] -wiki&#8217; for a community sourced answer<br />" +
-    "4. Type &#8216bm [ERROR CODE] -all&#8217; for all the above<br />" +
+    "1. Type &#8216bluemix [ERROR CODE] -description&#8217; for a description from documentation<br />" +
+    "2. Type &#8216bluemix [ERROR CODE] -solutions&#8217; for a list of possible solutions<br />" +
+    "3. Type &#8216bluemix [ERROR CODE] -wiki&#8217; for a community sourced answer<br />" +
+    "4. Type &#8216bluemix [ERROR CODE] -all&#8217; for all the above<br />" +
     "<br />";
 
 var ansFive = "ERROR DESCRIPTION<br />" +
@@ -158,3 +158,49 @@ var ansNine = "Using manifest file /Users/lbrooke/Documents/postehaste/manifest.
     "     state     since                    cpu    memory          disk   <br />" +
     "#0   running   2014-08-07 09:55:17 PM   0.0%   30.4M of 512M   117.1M of 1G  <br />" +
     "urls: posthaste.mybluemix.net<br />";
+
+    var ansTen = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
+        "Type 'cf help [command]' for more details. Type 'cf help --admin' for a list of admin-only commands.<br><br>" +
+        "api                    / Set or view target api url<br>" +
+        "app                    / Display health and status for app<br>" +
+        "apps                   / List all apps in the target space<br>" +
+        "auth                   / Authenticate user non-interactively<br>" +
+        "config                 / Write default values to CF CLI configuration<br>" +
+        "copy-source            / Make a copy of app source code from one application to another<br>" +
+        "curl                   / Execute a raw request<br>" +
+        "delete                 / Delete an app<br>" +
+        "env                    / Show all env variables for an app<br>" +
+        "events                 / Show recent app events<br>" +
+        "files                  / Print out a list of files in a directory or the contents of a specific file<br>" +
+        "help                   / Show this help<br>" +
+        "login, l               / Log in to a specific CF API endpoint<br>" +
+        "logs                   / Tail or show recent logs for an app<br>" +
+        "marketplace, m         / List available offerings in the marketplace<br>" +
+        "org                    / Show org info<br>" +
+        "plugins                / List all available plugin commands<br>" +
+        "push, p                / Push a new app or sync changes to an existing app<br>" +
+        "rename                 / Rename an app<br>" +
+        "rename-org             / Rename an org<br>" +
+        "restage, rg            / Restage an app<br>" +
+        "restart, rs            / Restart an app<br>" +
+        "routes, r              / List all routes in the current space<br>" +
+        "scale                  / Set or view app instance count, disk space, and memory limit<br>" +
+        "services, s            / List all service instances in the target space<br>" +
+        "service-auth-tokens    / List service auth tokens<br>" +
+        "set-env                / Set an environment variable for an app<br>" +
+        "space                  / Show space info<br>" +
+        "stacks                 / List all stacks<br>" +
+        "start                  / Start an app<br>" +
+        "stop                   / Stop an app<br>" +
+        "target                 / Set or view the targeted org or space<br>" +
+        "unset-env              / Remove an env variable<br><br>" +
+        "--version, -v          / Print the version<br>" +
+        "--help, -h             / Show help<br><br>" +
+        "CF_COLOR=false                    / Do not colorize output<br>" +
+        "CF_HOME=path/to/dir/              / Override path to default config directory<br>" +
+        "CF_PLUGIN_HOME=path/to/dir/       / Override path to default plugin config directory<br>" +
+        "CF_STAGING_TIMEOUT=15             / Max wait time for buildpack staging, in minutes<br>" +
+        "CF_STARTUP_TIMEOUT=5              / Max wait time for app instance startup, in minutes<br>" +
+        "CF_TRACE=true                     / Print API request diagnostics to stdout<br>" +
+        "CF_TRACE=path/to/trace.log        / Append API request diagnostics to a log file<br>" +
+        "HTTP_PROXY=proxy.example.com:8080 / Enable HTTP proxying for API requests";

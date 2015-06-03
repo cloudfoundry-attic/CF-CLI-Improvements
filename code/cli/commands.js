@@ -27,6 +27,9 @@
                         term.echo(ansNine,{raw:true});
                     }
                     break;
+                case('cf help'):
+                    term.echo(ansTen, {raw:true});
+                    break;
                 case('bluemix -help'):
                     term.echo(ansFour, {raw:true});
                     break;

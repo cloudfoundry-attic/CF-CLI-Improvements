@@ -29,14 +29,14 @@ var ansThree =
     "SOURCE<br />" +
     "This information is taken from the CloudFoundry Docs. http://docs.cloudfoundry.org/devguide/deploy-apps/troubleshoot-app-health.html#trace<br />" +
     "<br />" +
-    "TIP: use ‘bm -help’ to continue troubleshooting<br />" +
+    "TIP: use &#8216bm -help&#8217; to continue troubleshooting<br />" +
     "<br />";
 
 var ansFour = "BLUEMIX TROUBLESHOOTER<br /><br />" +
-    "1. Type ‘bm [ERROR CODE] -description’ for a description from documentation<br />" +
-    "2. Type ‘bm [ERROR CODE] -solutions’ for a list of possible solutions<br />" +
-    "3. Type ‘bm [ERROR CODE] -wiki’ for a community sourced answer<br />" +
-    "4. Type ‘bm [ERROR CODE] -all’ for all the above<br />" +
+    "1. Type &#8216bm [ERROR CODE] -description&#8217; for a description from documentation<br />" +
+    "2. Type &#8216bm [ERROR CODE] -solutions&#8217; for a list of possible solutions<br />" +
+    "3. Type &#8216bm [ERROR CODE] -wiki&#8217; for a community sourced answer<br />" +
+    "4. Type &#8216bm [ERROR CODE] -all&#8217; for all the above<br />" +
     "<br />";
 
 var ansFive = "ERROR DESCRIPTION<br />" +

@@ -39,6 +39,9 @@
                 case('cf help routes'):
                     term.echo(ansThirteen, {raw:true});
                     break;
+                case('cf help env'):
+                    term.echo(ansFourteen, {raw:true});
+                    break;
                 case('bluemix -help'):
                     term.echo(ansFour, {raw:true});
                     break;

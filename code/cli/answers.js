@@ -261,4 +261,34 @@ var ansNine = "Using manifest file /Users/lbrooke/Documents/postehaste/manifest.
             "   unbind-security-group                         Unbind a security group from a space";
 
         // cf help routes
-        var ansThirteen = "";
+        var ansThirteen = "NAME:<br>" +
+        "   routes - List all routes in the current space<br><br>" +
+        "ALIAS:<br>" +
+        "   r<br><br>" +
+        "USAGE:<br>" +
+        "   cf routes<br><br>" +
+        "RELATED COMMANDS:<br>" +
+        "   create-route                                  Create a url route in a space for later use<br>" +
+        "   check-route                                   Perform a simple check to determine whether a route currently exists or not.<br>" +
+        "   map-route                                     Add a url route to an app<br>" +
+        "   unmap-route                                   Remove a url route from an app<br>" +
+        "   delete-route                                  Delete a route<br>" +
+        "   delete-orphaned-routes                        Delete all orphaned routes (e.g.: those that are not mapped to an app)";
+
+        // cf help env
+        var ansFourteen = "NAME:<br>" +
+            "   env - Show all environment variables for an app<br><br>" +
+            "ALIAS:<br>" +
+            "   e<br><br>" +
+            "USGAE:<br>" +
+            "   cf env APP<br><br>" +
+            "RELATED COMMANDS:<br>" +
+            "   set-env, se                                   Set an env variable for an app<br>" +
+            "   unset-env                                     Remove an env variable<br>" +
+            "   running-environment-variable-group, revg      Retrieve the contents of the running environment variable group<br>" +
+            "   staging-environment-variable-group, sevg      Retrieve the contents of the staging environment variable group<br>" +
+            "   set-staging-environment-variable-group, ssevg Pass parameters as JSON to create a staging environment variable group<br>" +
+            "   set-running-environment-variable-group, srevg Pass parameters as JSON to create a running environment variable group";
+
+        // cf help orgs
+        var ansFifteen;

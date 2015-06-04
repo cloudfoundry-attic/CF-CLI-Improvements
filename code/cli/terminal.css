@@ -54,3 +54,11 @@ html, body {
   height: 100vh;
   padding: 1em;
 }
+
+.cmdName{
+  width: 180px;
+}
+
+.envName{
+  width: 250px;
+}

@@ -52,7 +52,7 @@ html, body {
 #cfTerm{
 	/*height: 300px;*/
   height: 100vh;
-  padding: 1em;
+  padding: 2em 1em 4em 1em;
 }
 
 .cmdName{
@@ -69,4 +69,8 @@ html, body {
 
 .subCmdName{
   width: 200px;
+}
+
+.prompt {
+  color: green;
 }

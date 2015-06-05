@@ -6,6 +6,7 @@ $(document).ready(function($) {
     }
     var push = 0;
     var greeting = 'Last login: Tue Jun  2 16:18:21 on ttys000\n\n######                                       \n#     # #      #    # ###### #    # # #    # \n#     # #      #    # #      ##  ## #  #  #  \n######  #      #    # #####  # ## # #   ##   \n#     # #      #    # #      #    # #   ##   \n#     # #      #    # #      #    # #  #  #  \n######  ######  ####  ###### #    # # #    # \n';
+    var prompt = '~ > ';
 
     $('#cfTerm').terminal(function(command, term) {
 
@@ -79,7 +80,7 @@ $(document).ready(function($) {
             return false;
         },
         name: 'Bluemix Terminal Emulator',
-        prompt: '~ > '
+        prompt: prompt
     });
 });
 

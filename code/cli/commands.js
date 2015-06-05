@@ -28,30 +28,30 @@ $(document).ready(function($) {
                 }
                 break;
             case('cf help'):
-                term.echo(ansTen, {raw:true});
+                term.echo(cf_help, {raw:true});
                 break;
             case('cf help --admin'):
-                term.echo(ansEleven, {raw:true});
+                term.echo(cf_help_admin, {raw:true});
                 break;
             case('cf help space'):;
             case('cf space --help'):;
             case('cf space -h'):
-                term.echo(ansTwelve, {raw:true});
+                term.echo(cf_help_space, {raw:true});
                 break;
             case('cf help routes'):;
             case('cf routes --help'):;
             case('cf routes -h'):
-                term.echo(ansThirteen, {raw:true});
+                term.echo(cf_help_routes, {raw:true});
                 break;
             case('cf help env'):;
             case('cf env --help'):;
             case('cf env -h'):
-                term.echo(ansFourteen, {raw:true});
+                term.echo(cf_help_env, {raw:true});
                 break;
             case('cf help orgs'):;
             case('cf orgs --help'):;
             case('cf orgs -h'):
-                term.echo(ansFifteen, {raw:true});
+                term.echo(cf_help_orgs, {raw:true});
                 break;
             case('bluemix -help'):
                 term.echo(ansFour, {raw:true});

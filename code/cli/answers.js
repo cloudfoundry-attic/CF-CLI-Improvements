@@ -159,157 +159,157 @@ var ansNine = "Using manifest file /Users/lbrooke/Documents/postehaste/manifest.
     "#0   running   2014-08-07 09:55:17 PM   0.0%   30.4M of 512M   117.1M of 1G  <br />" +
     "urls: posthaste.mybluemix.net<br />";
 
-    //cf help
-    var ansTen = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
-        "Type 'cf help [command]' for more details. Type 'cf help --admin' for a list of admin-only commands.<br><br>" +
-        "<span class='cmdName'>api</span>/ Set or view target api url<br>" +
-        "<span class='cmdName'>app</span>/ Display health and status for app<br>" +
-        "<span class='cmdName'>apps</span>/ List all apps in the target space<br>" +
-        "<span class='cmdName'>auth</span>/ Authenticate user non-interactively<br>" +
-        "<span class='cmdName'>config</span>/ Write default values to CF CLI configuration<br>" +
-        "<span class='cmdName'>copy-source</span>/ Make a copy of app source code from one application to another<br>" +
-        "<span class='cmdName'>curl</span>/ Execute a raw request<br>" +
-        "<span class='cmdName'>delete</span>/ Delete an app<br>" +
-        "<span class='cmdName'>env</span>/ Show all env variables for an app<br>" +
-        "<span class='cmdName'>events</span>/ Show recent app events<br>" +
-        "<span class='cmdName'>files</span>/ Print out a list of files in a directory or the contents of a specific file<br>" +
-        "<span class='cmdName'>help</span>/ Show this help<br>" +
-        "<span class='cmdName'>login, l</span>/ Log in to a specific CF API endpoint<br>" +
-        "<span class='cmdName'>logs</span>/ Tail or show recent logs for an app<br>" +
-        "<span class='cmdName'>marketplace, m</span>/ List available offerings in the marketplace<br>" +
-        "<span class='cmdName'>org</span>/ Show org info<br>" +
-        "<span class='cmdName'>plugins</span>/ List all available plugin commands<br>" +
-        "<span class='cmdName'>push, p</span>/ Push a new app or sync changes to an existing app<br>" +
-        "<span class='cmdName'>rename</span>/ Rename an app<br>" +
-        "<span class='cmdName'>rename-org</span>/ Rename an org<br>" +
-        "<span class='cmdName'>restage, rg</span>/ Restage an app<br>" +
-        "<span class='cmdName'>restart, rs</span>/ Restart an app<br>" +
-        "<span class='cmdName'>routes, r</span>/ List all routes in the current space<br>" +
-        "<span class='cmdName'>scale</span>/ Set or view app instance count, disk space, and memory limit<br>" +
-        "<span class='cmdName'>services, s</span>/ List all service instances in the target space<br>" +
-        "<span class='cmdName'>service-auth-tokens</span>/ List service auth tokens<br>" +
-        "<span class='cmdName'>set-env</span>/ Set an environment variable for an app<br>" +
-        "<span class='cmdName'>space</span>/ Show space info<br>" +
-        "<span class='cmdName'>stacks</span>/ List all stacks<br>" +
-        "<span class='cmdName'>start</span>/ Start an app<br>" +
-        "<span class='cmdName'>stop</span>/ Stop an app<br>" +
-        "<span class='cmdName'>target</span>/ Set or view the targeted org or space<br>" +
-        "<span class='cmdName'>unset-env</span>/ Remove an env variable<br><br>" +
-        "<span class='cmdName'>--version, -v</span>/ Print the version<br>" +
-        "<span class='cmdName'>--help, -h</span>/ Show help<br><br>" +
-        "<span class='envName'>CF_COLOR=false</span>/ Do not colorize output<br>" +
-        "<span class='envName'>CF_HOME=path/to/dir/</span>/ Override path to default config directory<br>" +
-        "<span class='envName'>CF_PLUGIN_HOME=path/to/dir/</span>/ Override path to default plugin config directory<br>" +
-        "<span class='envName'>CF_STAGING_TIMEOUT=15</span>/ Max wait time for buildpack staging, in minutes<br>" +
-        "<span class='envName'>CF_STARTUP_TIMEOUT=5</span>/ Max wait time for app instance startup, in minutes<br>" +
-        "<span class='envName'>CF_TRACE=true</span>/ Print API request diagnostics to stdout<br>" +
-        "<span class='envName'>CF_TRACE=path/to/trace.log</span>/ Append API request diagnostics to a log file<br>" +
-        "<span class='envName'>HTTP_PROXY=proxy.example.com:8080</span>/ Enable HTTP proxying for API requests";
+//cf help
+var cf_help = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
+    "Type 'cf help [command]' for more details. Type 'cf help --admin' for a list of admin-only commands.<br><br>" +
+    "<span class='cmdName'>api</span>/ Set or view target api url<br>" +
+    "<span class='cmdName'>app</span>/ Display health and status for app<br>" +
+    "<span class='cmdName'>apps</span>/ List all apps in the target space<br>" +
+    "<span class='cmdName'>auth</span>/ Authenticate user non-interactively<br>" +
+    "<span class='cmdName'>config</span>/ Write default values to CF CLI configuration<br>" +
+    "<span class='cmdName'>copy-source</span>/ Make a copy of app source code from one application to another<br>" +
+    "<span class='cmdName'>curl</span>/ Execute a raw request<br>" +
+    "<span class='cmdName'>delete</span>/ Delete an app<br>" +
+    "<span class='cmdName'>env</span>/ Show all env variables for an app<br>" +
+    "<span class='cmdName'>events</span>/ Show recent app events<br>" +
+    "<span class='cmdName'>files</span>/ Print out a list of files in a directory or the contents of a specific file<br>" +
+    "<span class='cmdName'>help</span>/ Show this help<br>" +
+    "<span class='cmdName'>login, l</span>/ Log in to a specific CF API endpoint<br>" +
+    "<span class='cmdName'>logs</span>/ Tail or show recent logs for an app<br>" +
+    "<span class='cmdName'>marketplace, m</span>/ List available offerings in the marketplace<br>" +
+    "<span class='cmdName'>org</span>/ Show org info<br>" +
+    "<span class='cmdName'>plugins</span>/ List all available plugin commands<br>" +
+    "<span class='cmdName'>push, p</span>/ Push a new app or sync changes to an existing app<br>" +
+    "<span class='cmdName'>rename</span>/ Rename an app<br>" +
+    "<span class='cmdName'>rename-org</span>/ Rename an org<br>" +
+    "<span class='cmdName'>restage, rg</span>/ Restage an app<br>" +
+    "<span class='cmdName'>restart, rs</span>/ Restart an app<br>" +
+    "<span class='cmdName'>routes, r</span>/ List all routes in the current space<br>" +
+    "<span class='cmdName'>scale</span>/ Set or view app instance count, disk space, and memory limit<br>" +
+    "<span class='cmdName'>services, s</span>/ List all service instances in the target space<br>" +
+    "<span class='cmdName'>service-auth-tokens</span>/ List service auth tokens<br>" +
+    "<span class='cmdName'>set-env</span>/ Set an environment variable for an app<br>" +
+    "<span class='cmdName'>space</span>/ Show space info<br>" +
+    "<span class='cmdName'>stacks</span>/ List all stacks<br>" +
+    "<span class='cmdName'>start</span>/ Start an app<br>" +
+    "<span class='cmdName'>stop</span>/ Stop an app<br>" +
+    "<span class='cmdName'>target</span>/ Set or view the targeted org or space<br>" +
+    "<span class='cmdName'>unset-env</span>/ Remove an env variable<br><br>" +
+    "<span class='cmdName'>--version, -v</span>/ Print the version<br>" +
+    "<span class='cmdName'>--help, -h</span>/ Show help<br><br>" +
+    "<span class='envName'>CF_COLOR=false</span>/ Do not colorize output<br>" +
+    "<span class='envName'>CF_HOME=path/to/dir/</span>/ Override path to default config directory<br>" +
+    "<span class='envName'>CF_PLUGIN_HOME=path/to/dir/</span>/ Override path to default plugin config directory<br>" +
+    "<span class='envName'>CF_STAGING_TIMEOUT=15</span>/ Max wait time for buildpack staging, in minutes<br>" +
+    "<span class='envName'>CF_STARTUP_TIMEOUT=5</span>/ Max wait time for app instance startup, in minutes<br>" +
+    "<span class='envName'>CF_TRACE=true</span>/ Print API request diagnostics to stdout<br>" +
+    "<span class='envName'>CF_TRACE=path/to/trace.log</span>/ Append API request diagnostics to a log file<br>" +
+    "<span class='envName'>HTTP_PROXY=proxy.example.com:8080</span>/ Enable HTTP proxying for API requests";
 
-    // cf help --admin
-    var ansEleven = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
-        "Type 'cf help [command]'' for more details.<br><br>" +
-        "Admin-only commands:<br><br>" +
-        "<span class='cmdName'>orgs, o</span>/ List all orgs<br>" +
-        "<span class='cmdName'>create-org, co</span>/ Create an org<br>" +
-        "<span class='cmdName'>delete-org, co</span>/ Delete an org<br>" +
-        "spaces<br>" +
-        "create-space<br>" +
-        "delete-space<br>" +
-        "domains<br>" +
-        "create-domain<br>" +
-        "delete-domain<br>" +
-        "create-shared-domain<br>" +
-        "delete-shared-domain<br>" +
-        "buildpacks<br>" +
-        "create-buildpack<br>" +
-        "etc<br><br>" +
-        "<span class='cmdName'>--version, -v</span>/ Print the version<br>" +
-        "<span class='cmdName'>--help, -h</span>/ Show help<br><br>" +
-        "<span class='cmdName'>CF_COLOR=false</span>/ Do not colorize output<br>" +
-        "<span class='cmdName'>CF_HOME=path/to/dir/</span>/ Override path to default config directory<br>" +
-        "CF_PLUGIN_HOME=path/to/dir/       / Override path to default plugin config directory<br>" +
-        "<span class='cmdName'>CF_STAGING_TIMEOUT=15</span>/ Max wait time for buildpack staging, in minutes<br>" +
-        "<span class='cmdName'>CF_STARTUP_TIMEOUT=5</span>/ Max wait time for app instance startup, in minutes<br>" +
-        "<span class='cmdName'>CF_TRACE=true</span>/ Print API request diagnostics to stdout<br>" +
-        "CF_TRACE=path/to/trace.log        / Append API request diagnostics to a log file<br>" +
-        "HTTP_PROXY=proxy.example.com:8080 / Enable HTTP proxying for API requests<br>";
+// cf help --admin
+var cf_help_admin = "Usage: [environment variables] cf [global options] command [arguments...] [command options]<br><br>" +
+    "Type 'cf help [command]'' for more details.<br><br>" +
+    "Admin-only commands:<brcf ><br>" +
+    "<span class='cmdName'>orgs, o</span>/ List all orgs<br>" +
+    "<span class='cmdName'>create-org, co</span>/ Create an org<br>" +
+    "<span class='cmdName'>delete-org, co</span>/ Delete an org<br>" +
+    "spaces<br>" +
+    "create-space<br>" +
+    "delete-space<br>" +
+    "domains<br>" +
+    "create-domain<br>" +
+    "delete-domain<br>" +
+    "create-shared-domain<br>" +
+    "delete-shared-domain<br>" +
+    "buildpacks<br>" +
+    "create-buildpack<br>" +
+    "etc<br><br>" +
+    "<span class='envName'>--version, -v</span>/ Print the version<br>" +
+    "<span class='envName'>--help, -h</span>/ Show help<br><br>" +
+    "<span class='envName'>CF_COLOR=false</span>/ Do not colorize output<br>" +
+    "<span class='envName'>CF_HOME=path/to/dir/</span>/ Override path to default config directory<br>" +
+    "<span class='envName'>CF_PLUGIN_HOME=path/to/dir/</span>/ Override path to default plugin config directory<br>" +
+    "<span class='envName'>CF_STAGING_TIMEOUT=15</span>/ Max wait time for buildpack staging, in minutes<br>" +
+    "<span class='envName'>CF_STARTUP_TIMEOUT=5</span>/ Max wait time for app instance startup, in minutes<br>" +
+    "<span class='envName'>CF_TRACE=true</span>/ Print API request diagnostics to stdout<br>" +
+    "<span class='envName'>CF_TRACE=path/to/trace.log</span>/ Append API request diagnostics to a log file<br>" +
+    "<span class='envName'>HTTP_PROXY=proxy.example.com:8080</span>/ Enable HTTP proxying for API requests<br>";
 
-        // cf help space
-        var ansTwelve = "NAME:<br>" +
-            "   space - Show space info<br><br>" +
-            "USAGE:<br>" +
-            "   cf space SPACE<br><br>" +
-            "RELATED COMMANDS:<br>" +
-            "   spaces                                        List all spaces in an org<br>" +
-            "   create-space                                  Create a space<br>" +
-            "   delete-space                                  Delete a space<br>" +
-            "   rename-space                                  Rename a space<br>" +
-            "   routes, r                                     List all routes in the current space<br>" +
-            "   create-route                                  Create a url route in a space for later use<br>" +
-            "   space-users                                   Show space users by role<br>" +
-            "   set-space-role                                Assign a space role to a user<br>" +
-            "   unset-space-role                              Remove a space role from a user<br>" +
-            "   space-quota                                   Show space quota info<br>" +
-            "   space-quotas                                  List available space resource quotas<br>" +
-            "   create-space-quota                            Define a new space resource quota<br>" +
-            "   update-space-quota                            update an existing space quota<br>" +
-            "   delete-space-quota                            Delete a space quota definition and unassign the space quota from all spaces<br>" +
-            "   set-space-quota                               Assign a space quota definition to a space<br>" +
-            "   unset-space-quota                             Unassign a quota from a space<br>" +
-            "   bind-security-group                           Bind a security group to a space<br>" +
-            "   unbind-security-group                         Unbind a security group from a space";
+// cf help space
+var cf_help_space = "NAME:<br>" +
+    "   <span class='indent'></span>space - Show space info<br><br>" +
+    "USAGE:<br>" +
+    "   <span class='indent'></span>cf space SPACE<br><br>" +
+    "RELATED COMMANDS:<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>spaces               </span> List all spaces in an org<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>create-space         </span> Create a space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>delete-space         </span> Delete a space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>rename-space         </span> Rename a space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>routes, r            </span> List all routes in the current space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>create-route         </span> Create a url route in a space for later use<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>space-users          </span> Show space users by role<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>set-space-role       </span> Assign a space role to a user<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>unset-space-role     </span> Remove a space role from a user<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>space-quota          </span> Show space quota info<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>space-quotas         </span> List available space resource quotas<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>create-space-quota   </span> Define a new space resource quota<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>update-space-quota   </span> update an existing space quota<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>delete-space-quota   </span> Delete a space quota definition and unassign the space quota from all spaces<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>set-space-quota      </span> Assign a space quota definition to a space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>unset-space-quota    </span> Unassign a quota from a space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>bind-security-group  </span> Bind a security group to a space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>unbind-security-group</span> Unbind a security group from a space";
 
-        // cf help routes
-        var ansThirteen = "NAME:<br>" +
-        "   routes - List all routes in the current space<br><br>" +
-        "ALIAS:<br>" +
-        "   r<br><br>" +
-        "USAGE:<br>" +
-        "   cf routes<br><br>" +
-        "RELATED COMMANDS:<br>" +
-        "   create-route                                  Create a url route in a space for later use<br>" +
-        "   check-route                                   Perform a simple check to determine whether a route currently exists or not.<br>" +
-        "   map-route                                     Add a url route to an app<br>" +
-        "   unmap-route                                   Remove a url route from an app<br>" +
-        "   delete-route                                  Delete a route<br>" +
-        "   delete-orphaned-routes                        Delete all orphaned routes (e.g.: those that are not mapped to an app)";
+// cf help routes
+var cf_help_routes = "NAME:<br>" +
+    "   <span class='indent'></span>routes - List all routes in the current space<br><br>" +
+    "ALIAS:<br>" +
+    "   <span class='indent'></span>r<br><br>" +
+    "USAGE:<br>" +
+    "   <span class='indent'></span>cf routes<br><br>" +
+    "RELATED COMMANDS:<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>create-route          </span> Create a url route in a space for later use<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>check-route           </span> Perform a simple check to determine whether a route currently exists or not.<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>map-route             </span> Add a url route to an app<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>unmap-route           </span> Remove a url route from an app<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>delete-route          </span> Delete a route<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>delete-orphaned-routes</span> Delete all orphaned routes (e.g.: those that are not mapped to an app)";
 
-        // cf help env
-        var ansFourteen = "NAME:<br>" +
-            "   env - Show all environment variables for an app<br><br>" +
-            "ALIAS:<br>" +
-            "   e<br><br>" +
-            "USGAE:<br>" +
-            "   cf env APP<br><br>" +
-            "RELATED COMMANDS:<br>" +
-            "   set-env, se                                   Set an env variable for an app<br>" +
-            "   unset-env                                     Remove an env variable<br>" +
-            "   running-environment-variable-group, revg      Retrieve the contents of the running environment variable group<br>" +
-            "   staging-environment-variable-group, sevg      Retrieve the contents of the staging environment variable group<br>" +
-            "   set-staging-environment-variable-group, ssevg Pass parameters as JSON to create a staging environment variable group<br>" +
-            "   set-running-environment-variable-group, srevg Pass parameters as JSON to create a running environment variable group";
+// cf help env
+var cf_help_env = "NAME:<br>" +
+    "   <span class='indent'></span>env - Show all environment variables for an app<br><br>" +
+    "ALIAS:<br>" +
+    "   <span class='indent'></span>e<br><br>" +
+    "USGAE:<br>" +
+    "   <span class='indent'></span>cf env APP<br><br>" +
+    "RELATED COMMANDS:<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>set-env, se                                   </span> Set an env variable for an app<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>unset-env                                     </span> Remove an env variable<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>running-environment-variable-group, revg      </span> Retrieve the contents of the running environment variable group<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>staging-environment-variable-group, sevg      </span> Retrieve the contents of the staging environment variable group<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>set-staging-environment-variable-group, ssevg </span> Pass parameters as JSON to create a staging environment variable group<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>set-running-environment-variable-group, srevg </span> Pass parameters as JSON to create a running environment variable group";
 
-        // cf help orgs
-        var ansFifteen = "NAME:<br>" +
-            "   orgs - List all orgs<br><br>" +
-            "ALIAS:<br>" +
-            "   o<br><br>" +
-            "USAGE:<br>" +
-            "   cf orgs<br><br>" +
-            "RELATED COMMANDS:<br>" +
-            "   target, t                                     Set or view the targeted org or space<br>" +
-            "   org                                           Show org info<br>" +
-            "   create-org, co                                Create an org<br>" +
-            "   delete-org                                    Delete an org<br>" +
-            "   rename-org                                    Rename an org<br>" +
-            "   spaces                                        List all spaces in an org<br>" +
-            "   domains                                       List domains in the target org<br>" +
-            "   create-domain                                 Create a domain in an org for later use<br>" +
-            "   create-shared-domain                          Create a domain that can be used by all orgs (admin-only)<br>" +
-            "   org-users                                     Show org users by role<br>" +
-            "   set-org-role                                  Assign an org role to a user<br>" +
-            "   unset-org-role                                Remove an org role from a user<br>" +
-            "   set-quota                                     Assign a quota to an org<br>" +
-            "   enable-service-access                         Enable access to a service or service plan for one or all orgs<br>" +
-            "   disable-service-access                        Disable access to a service or service plan for one or all orgs";
+// cf help orgs
+var cf_help_orgs = "NAME:<br>" +
+    "   <span class='indent'></span>orgs - List all orgs<br><br>" +
+    "ALIAS:<br>" +
+    "   <span class='indent'></span>o<br><br>" +
+    "USAGE:<br>" +
+    "   <span class='indent'></span>cf orgs<br><br>" +
+    "RELATED COMMANDS:<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>target, t              </span> Set or view the targeted org or space<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>org                    </span> Show org info<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>create-org, co         </span> Create an org<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>delete-org             </span> Delete an org<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>rename-org             </span> Rename an org<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>spaces                 </span> List all spaces in an org<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>domains                </span> List domains in the target org<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>create-domain          </span> Create a domain in an org for later use<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>create-shared-domain   </span> Create a domain that can be used by all orgs (admin-only)<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>org-users              </span> Show org users by role<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>set-org-role           </span> Assign an org role to a user<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>unset-org-role         </span> Remove an org role from a user<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>set-quota              </span> Assign a quota to an org<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>enable-service-access  </span> Enable access to a service or service plan for one or all orgs<br>" +
+    "   <span class='indent'></span> <span class='subCmdName'>disable-service-access </span> Disable access to a service or service plan for one or all orgs";

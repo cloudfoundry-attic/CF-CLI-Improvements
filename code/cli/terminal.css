@@ -62,3 +62,11 @@ html, body {
 .envName{
   width: 250px;
 }
+
+.indent{
+  padding-left: 20px;
+}
+
+.subCmdName{
+  width: 200px;
+}
